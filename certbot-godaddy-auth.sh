@@ -5,7 +5,7 @@
 #
 # This software may be modified and distributed under the terms
 # of the BSD license.  See the LICENSE file for details.
-
+#!/bin/bash
 source $(dirname $(readlink -f $0))/api-settings.sh
 
 DNS_REC_TYPE=TXT

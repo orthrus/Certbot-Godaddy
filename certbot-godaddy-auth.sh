@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # certbot-godaddy-auth.sh -- A Certbot Authentication callback script
 #
 # Copyright (C) 2019 Martijn Veldpaus

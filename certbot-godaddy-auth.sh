@@ -20,6 +20,6 @@ curl    -i \
         -H "accept: application/json" \
         -H "Content-Type: application/json" \
         -H "Authorization: sso-key ${GODADDY_API_KEY}:${GODADDY_API_SECRET}" \
-        -d "[{\"data\": \"${DNS_REC_DATA}\", \"name\": \"${DNS_REC_NAME}\", \"type\": \"${DNS_REC_TYPE}\", \"ttl\": 600}]"
+        -d "[{\"data\": \"${DNS_REC_DATA}\", \"name\": \"${DNS_REC_NAME}\", \"type\": \"${DNS_REC_TYPE}\", \"port\": 65535, \"priority\": 0, \"ttl\": 600, \"weight\": 0, \"protocol\": \"string\", \"service\": \"string\"}]"       
 
 sleep 30s
